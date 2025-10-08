@@ -1,5 +1,19 @@
-/* Reset Modern */
+:root{
+    --sm:1rem;
+    --font:Inter;
+}
 
 *{
-  margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{  
+    scroll-behavior: smooth;
+    height: 1.5;
+}
+
+body{
+    font-size: var(--sm);
+    font-family: var(--font);
 }
